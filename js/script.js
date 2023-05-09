@@ -13,3 +13,17 @@ document.addEventListener("click", function (e) {
   if (!hamburger.contains(e.target) && !navbarNav.contains(e.target))
     navbarNav.classList.remove("active");
 });
+
+//Button hero section
+const diskon = document.querySelector("#diskon");
+
+document.addEventListener("click", function (e) {
+  if (!hamburger.contains(e.target) && !navbarNav.contains(e.target))
+    navbarNav.classList.remove("active");
+});
+// for (var clickButton of
+//   document.getElementsByClassName("clickTheButton"))
+//   clickButton.addEventListener("click", alertMeessage);
+//   function alertMeessage() {
+//      alert("Untuk sekarang belum ada promo yaa...");
+//   }

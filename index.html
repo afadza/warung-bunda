@@ -15,6 +15,7 @@
 
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css" />
@@ -24,17 +25,21 @@
     <!-- Navbar Start -->
 
     <nav class="navbar">
+      <div class="logo-png">
+        <img src="img/navbar/logo.png" alt="">
+      
       <a href="#" class="navbar-logo">Warung<span>Bunda</span>.</a>
+    </div>
 
       <div class="navbar-nav">
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
-        <a href="#contact">Kontak</a>
+        <a href="#contact">Alamat</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
+        <!-- <a href="#" id="search"><i data-feather="search"></i></a> -->
         <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
@@ -47,26 +52,27 @@
       <main class="content">
         <h1>Selamat datang di <span>WarungBunda</span></h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-          quibusdam.
+          Mulai dari yang manis sampai yang gurih
+          semua tersedia disini lhooo...
         </p>
-        <a href="#" class="cta">Beli sekarang</a>
+        <a href="#" class="cta" id="diskon">Banyak tawaran menarik lhoo..</a>
+        <!-- <button class="clickTheButton">Cek promo menarik yuuk..!</button> -->
       </main>
     </section>
     <!-- Hero section end -->
 
     <!-- About section start -->
     <section id="about" class="about">
-      <h2><span>Tentang</span> Kami</h2>
+      <h2>Warung<span> Bunda</span></h2>
       
       <div class="row">
         <div class="about-img">
-          <img src="img/tentang-kami.jpg" alt="Tentang Kami">
+          <img src="img/navbar/logo.png" alt="Tentang Kami">
         </div>
         <div class="content">
           <h3>Kenapa memilih Warung Bunda?</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem amet enim explicabo maxime alias est.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ullam natus odit repellat aliquam quisquam sint dolorum eos. Sint, vitae?</p>
+          <p>Karena terbuat dari bahan makanan yang sudah pasti halal dan aman, serta pastinya dengan kualitas yang terbaik</p>
+          <p>Dengan menyajikan 2 pilihan, yaitu Frozen Food dan Siap Santap, Yang menjadikan warung bunda menjadi pilihan yang tepat untuk bunda-bunda konsumsi pribadi maupun acara-acara besar</p>
         </div>
       </div>
     </section>
@@ -74,39 +80,60 @@
 
     <!-- Menu section start -->
     <section id="menu" class="menu">
-      <h2><span>Menu</span> Kami</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque veritatis enim exercitationem iste fugiat qui!</p>
+      <h2>Ada apa aja si di <span>Warung Bunda</span></h2>
+      <p>Kita menyediakan berbagai macam jenis makanan</p>
+      <p>Yuk bunda-bunda dipilih yaa..</p>
 
       <div class="row">
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
+          <img src="img/menu/1.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Tahu Fantasi -</h3>
+          <p class="menu-card-price">1.500/pcs</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
+          <img src="img/menu/2.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Pudding -</h3>
+          <p class="menu-card-price">1.500/pcs</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
+          <img src="img/menu/3.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Bolu -</h3>
+          <p class="menu-card-price">1.500/pcs</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
+          <img src="img/menu/4.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Bubur Kacang Ijo -</h3>
+          <p class="menu-card-price">5.000/cup</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
+          <img src="img/menu/5.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Pudding Telur -</h3>
+          <p class="menu-card-price">1.500/pcs</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img">
-          <h3 class="menu-card-title">- Espresso -</h3>
-          <p class="menu-card-price">IDR 15K</p>
+          <img src="img/menu/6.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Putri Ayu -</h3>
+          <p class="menu-card-price">1.500/pcs</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/7.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Kue Lumpur -</h3>
+          <p class="menu-card-price">1.500/pcs</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/8.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Dadar Gulung -</h3>
+          <p class="menu-card-price">1.500/pcs</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/9.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Risoles -</h3>
+          <p class="menu-card-price">1.500/pcs</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/10.jpeg" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Pastel -</h3>
+          <p class="menu-card-price">1.500/pcs</p>
         </div>
       </div>
     </section>
@@ -114,13 +141,15 @@
 
     <!-- Contact section start -->
     <section id="contact" class="contact">
-      <h2><span>Kontak</span> Kami</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, distinctio.</p>
+      <h2><span>Alamat</span> Kami</h2>
+      <p>Hallo bunda-bunda semua, warung bunda juga ada toko offline nya lhoo...</p>
 
       <div class="row">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.622666472221!2d106.74031957404635!3d-6.442474362996026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e9c9d683d387%3A0x3062af32eddc36a2!2sGriya%20Ragamukti%20Mandiri.RGM!5e0!3m2!1sid!2sid!4v1683182345127!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
 
-        <form action="">
+        <h2>Yuk yang mau berkunjung dan liat langsung juga boleh kok...</h2>
+
+        <!-- <form action="">
           <div class="input-group">
             <i data-feather="user"></i>
             <input type="text" placeholder="Nama">
@@ -135,7 +164,7 @@
           </div>
 
           <button type="submit" class="btn">kirim pesan</button>
-        </form>
+        </form> -->
       
       </div>
     </section>
@@ -147,13 +176,14 @@
         <a href="#"><i data-feather="instagram"></i></a>
         <a href="#"><i data-feather="twitter"></i></a>
         <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i class="fa fa-whatsapp" style="font-size:26px"></i></i></a>
       </div>
 
       <div class="links">
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
-        <a href="#contact">Kontak</a>
+        <a href="#contact">Alamat</a>
       </div>
 
       <div class="credit">

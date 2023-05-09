@@ -1,6 +1,6 @@
 :root {
-  --primary: #ace1af;
-  --bg: #006d5b;
+  --primary: #fbd46e;
+  --bg: #508a8b;
 }
 
 * {
@@ -35,6 +35,11 @@ body {
   left: 0;
   right: 0;
   z-index: 9999;
+}
+
+.navbar .logo-png img{
+  height: 30px;
+  margin-right: 1rem;
 }
 
 .navbar .navbar-logo {
@@ -106,14 +111,16 @@ body {
   bottom: 0;
   background: linear-gradient(
     0deg,
-    rgba(0, 109, 91, 1) 8%,
-    rgba(25, 219, 187, 0) 50%
+    rgb(80, 138, 139, 1) 8%,
+    rgb(80, 138, 139, 0) 50%
   );
 }
 
 .hero .content {
   padding: 1.4rem 7%;
   max-width: 60rem;
+  background-color: rgba(1, 1, 1, 0.5);
+  border-radius: 0 30px 30px 0;
 }
 
 .hero .content h1 {
@@ -129,11 +136,10 @@ body {
 
 .hero .content p {
   font-size: 1.6rem;
-  margin-top: 1rem;
+  margin-top: 1rem;   
   line-height: 1.4;
   font-weight: 100;
-  text-shadow: 1px 1px 3px rgba(0, 109, 91, 0.5);
-  mix-blend-mode: difference;
+  
 }
 
 .hero .content .cta {
@@ -142,10 +148,20 @@ body {
   padding: 1rem 3rem;
   font-size: 1.4rem;
   color: #fff;
-  background-color: var(--primary);
+  background-color: var(--bg);
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px rgba(0, 109, 91, 0.5);
 }
+
+/* .hero .content button {
+  background-color: var(--bg);
+  color: #fff;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border-radius: 10px;
+} */
 
 /* About Section */
 .about,
@@ -226,6 +242,10 @@ body {
 .menu .row .menu-card img {
   border-radius: 50%;
   width: 80%;
+  height: 200px;
+  width: 200px;
+  border: 1px solid #fff;
+  margin: 1rem;
 }
 
 .menu .row .menu-card .menu-card-title {
@@ -233,10 +253,12 @@ body {
 }
 
 /* Contact Section */
+.contact {
+  min-height: 100vh;
+}
 .contact .row {
   display: flex;
   margin-top: 2rem;
-  background-color: #00947b;
 }
 
 .contact .row .map {
@@ -245,7 +267,12 @@ body {
   object-fit: cover;
 }
 
-.contact .row form {
+.contact .row h2 {
+  text-align: left;
+  margin: 2rem;
+}
+
+/* .contact .row form {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
   text-align: center;
@@ -277,7 +304,13 @@ body {
   color: #fff;
   background-color: var(--bg);
   cursor: pointer;
+  border-radius: 20rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.contact .row form .btn:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} */
 
 footer {
   background-color: var(--primary);
@@ -398,8 +431,12 @@ footer .credit a {
     height: 30rem;
   }
 
-  .contact .row form {
+  /* .contact .row form {
     padding-top: 0;
+  } */
+  .contact .row h2 {
+    font-size: large;
+    margin: 1rem 0 0 0;
   }
 }
 
